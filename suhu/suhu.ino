@@ -8,8 +8,8 @@ WiFiClient espClient;
 PubSubClient client(espClient);
 
 // Connect to the WiFi
-const char* ssid = "Luwak Net";
-const char* password = "faiziweb.com";
+const char* ssid = "ibuk";
+const char* password = "qazwsxedc";
 const char* mqtt_server = "riset.revolusi-it.com";
 
 const char* topik = "iot/suhu";
@@ -32,7 +32,7 @@ void reconnect() {
  while (!client.connected()) {
  Serial.print("Menghubungkan diri ke MQTT Server : "+(String)mqtt_server);
  // Attempt to connect
- if (client.connect("G.231.19.0203")) {
+ if (client.connect("G.231.19.0184")) {
   Serial.println("connected");
   // ... and subscribe to topic
   client.subscribe(topik);
