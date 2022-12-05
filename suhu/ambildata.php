@@ -35,7 +35,7 @@ $password = "";
 $topic = "iot/suhu";
 
 require("phpMQTT.php");
-$mqtt = new bluerhinos\phpMQTT($host, $port, "G.231.19.0203".rand());
+$mqtt = new bluerhinos\phpMQTT($host, $port, "G.231.19.0184".rand());
 
 buka_koneksi_mysql();
 if (!$mqtt->connect(true,NULL,$username,$password)) {
