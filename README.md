@@ -2,6 +2,6 @@
 Nama : Febrian Yoga Ari Pratama
 Nim : G.231.19.0184
 
-Tugas : Membuat sistem pengendali Digital berbasis Web 
+Tugas 22 november 2022: Membuat sistem pengendali Digital berbasis Web filenya yaitu MQTT PIN.ino dan send.php
 
-pada folder suhu merupakan tugas praktikum minggu tgl 27 november 2022 yaitu Integrasi pembacaan data suhu dari NodeMCU dan dashboard PHP/Javascript Realtime
+Tugas 27 november 2022: Integrasi pembacaan data suhu dari NodeMCU dan dashboard PHP/Javascript Realtime filenya didalam folder Suhu
